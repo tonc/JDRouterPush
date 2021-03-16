@@ -21,13 +21,13 @@ records_num = 7
 version = "20210314"
 
 # 环境变量
-WSKEY = os.environ.get("WSKEY", "")  # 京东云无线宝中获取
-SERVERPUSHKEY = os.environ.get("SERVERPUSHKEY", "")  # Server酱推送
+WSKEY = os.environ.get("WSKEY", "AAJgUBFTAEDr34RqpiU2AaFgt3YJltMDB46zUe4DYzIkmraRyLIQX3L6trKGzitxaPNmCVAWpfn37BSnQV0pzf_mZypc2qsr")  # 京东云无线宝中获取
+SERVERPUSHKEY = os.environ.get("SERVERPUSHKEY", "SCU22127T6eda31180ce8a19d3c5b544e353722de603e4fdfeefd2")  # Server酱推送
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")  # Telegram推送服务Token
 TG_USER_ID = os.environ.get("TG_USER_ID", "")  # Telegram推送服务UserId
 BARK = os.environ.get("BARK", "")  # bark消息推送服务,自行搜索; secrets可填;形如jfjqxDx3xxxxxxxxSaK的字符串
 PUSHPLUS = os.environ.get("PUSHPLUS", "")  # PUSHPLUS消息推送Token
-DEVICENAME = os.environ.get("DEVICENAME", "")  # 设备名称 mac后6位:设置的名称，多个使用&连接
+DEVICENAME = os.environ.get("DEVICENAME", "139A9E:韭菜一号")  # 设备名称 mac后6位:设置的名称，多个使用&连接
 RECORDSNUM = os.environ.get("RECORDSNUM", "7")  # 需要设置的获取记录条数 不填默认7条
 
 # 获取当天时间和当天积分
